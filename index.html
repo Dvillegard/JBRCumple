@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Animación al Scrollear</title>
+</head>
+
+<body>
+    <div class="hero">
+        <h1>Feliz Cumpleaños</h1>
+    </div>
+    <div class="container">
+        <div class="evento">
+            <div class="foto" data-aos="fade-up">
+                <img src="./img/a.JPG" alt="">
+            </div>
+            <h3 class="fecha">21 de Marzo de 2008</h3>
+        </div>
+        <div class="evento">
+            <div class="foto" data-aos="fade-down">
+                <img src="./img/b.JPG" alt="">
+            </div>
+            <h3 class="fecha">21 de Marzo de 2008</h3>
+        </div>
+        <div class="evento">
+            <div class="foto" data-aos="fade-left">
+                <img src="./img/c.JPG" alt="">
+            </div>
+            <h3 class="fecha">15 Junio 2011</h3>
+        </div>
+        <div class="evento">
+            <div class="foto" data-aos="fade-right">
+                <img src="./img/d.JPG" alt="">
+            </div>
+            <h3 class="fecha">4 Octubre 1998</h3>
+        </div>
+        <div class="evento">
+            <div class="foto" data-aos="fade-up">
+                <img src="./img/e.JPG" alt="">
+            </div>
+            <h3 class="fecha">26 de Diciembre 1994</h3>
+        </div>
+        <div class="evento">
+            <div class="foto" data-aos="fade-up">
+                <img src="./img/f.JPG" alt="">
+            </div>
+            <h3 class="fecha">15 Junio 2011</h3>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // cuanto dura la transcision y si es que se ejecuta una sola vez once
+        AOS.init({
+            duration: 1000,
+            // once: true
+        });
+    </script>
+</body>
+
+</html>
